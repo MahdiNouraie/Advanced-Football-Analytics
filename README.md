@@ -18,7 +18,10 @@ This script applies **bootstrapping** to the clustering results, enabling an eva
 ### 4. `Evaluation.R`
 This script applies four different regression models with represetative features as input and remaining features as output to predict the remaining variables.
 
-### 5. `data_aggregated.csv`
+### 5. `fbref_outfield_player_stats_combined_latest.csv`
+This file contains the raw data set used for this research.
+
+### 6. `data_aggregated.csv`
 This file contains the final, cleaned data set produced by the `Preprocessing.R` script, which is subsequently used in the next analyses.
 
 ---
