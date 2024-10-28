@@ -1,3 +1,5 @@
+#URL of dataset: https://github.com/eddwebster/football_analytics/tree/master/data/fbref/raw/outfield
+ 
 # This script is used to clean the data from fbref_outfield_player_stats_combined_latest.csv
 data = read.csv("fbref_outfield_player_stats_combined_latest.csv",
                 header = TRUE, na.strings=c(""," ","NA"),
