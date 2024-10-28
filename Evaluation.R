@@ -111,3 +111,6 @@ models <- c('linear_regression_mse', 'ridge_regression_mse', 'lasso_regression_m
 mse_stats_df <- do.call(rbind, lapply(models, calculate_stats))
 # Remove rownames
 rownames(mse_stats_df) <- NULL
+
+# Display the statistics dataframe
+print(mse_stats_df)
