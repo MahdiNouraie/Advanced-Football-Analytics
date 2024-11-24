@@ -24,4 +24,10 @@ This file contains the raw data set used for this research.
 ### 6. `data_aggregated.csv`
 This file contains the final, cleaned data set produced by the `Preprocessing.R` script, which is subsequently used in the next analyses.
 
+### 7. `Regression Results.md`
+This file contains the results of regression models of the step three of the introduced methodology.
+
+### 8. `Figures`
+This folder contains all figures used in the manuscript with their captions.
+
 ---
