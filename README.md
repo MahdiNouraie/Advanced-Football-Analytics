@@ -27,7 +27,7 @@ This file contains the final, cleaned data set produced by the `Preprocessing.R`
 ### 7. `Regression Results.md`
 This file contains the results of regression models of the step three of the introduced methodology.
 
-### 8. `Figures`
-This folder contains all figures used in the manuscript with their captions.
+### 8. `Figures,md`
+This file contains all figures used in the manuscript with their captions.
 
 ---
