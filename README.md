@@ -1,8 +1,8 @@
 ---
 
-# Advanced Football Analytics: Predicting Player Features
+# Predicting Football Player Features
 
-This repository contains the supporting code and data for the paper titled **"Advanced Football Analytics; Predicting Player Features through Hierarchical Clustering and Representative Selection"**. The code is written entirely in **R** and reflects the methodologies described in the paper.
+This repository contains the supporting code and data for the paper titled **"Predicting Football Player Features through Hierarchical Clustering and Representative Selection"**. The code is written entirely in **R** and reflects the methodologies described in the paper.
 
 ## Repository Contents
 
