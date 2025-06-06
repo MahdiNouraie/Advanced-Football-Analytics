@@ -37,7 +37,7 @@ sum(is.na(d21))
 c = colSums(is.na(d21))
 c[colSums(is.na(d21)) > 0]
 
-# remove 11 players who has many missing values
+# remove 12 players who has many missing values
 miss= d21[is.na(d21$onxGA),]
 d21 = d21[!(d21$Player %in% miss$Player), ]
 rm(miss)
@@ -55,7 +55,7 @@ data = data[!(data$Player %in% miss$Player), ]
 c = colSums(is.na(data))
 c[colSums(is.na(data)) > 0]
 
-# remove 50 players with missing Cmp%
+# remove 52 players with missing Cmp%
 miss= data[is.na(data$`Cmp%`),]
 data = data[!(data$Player %in% miss$Player), ]
 
@@ -70,7 +70,7 @@ data = data[!(data$Player %in% miss$Player), ]
 c = colSums(is.na(data))
 c[colSums(is.na(data)) > 0]
 
-# 10 + 11 + 50 + 16 = 87 players removed in total
+# 12 + 10 + 52 + 16 = 90 players removed in total
 
 # remove 17 columns with many missing values(min = 104)
 data = data[ , colSums(is.na(data)) == 0]
@@ -88,5 +88,5 @@ r = c("Gls.1", "Ast.1", "G-PK.1", "xG.1", "xA.1",
       "Att 3rd.1")
 data = data[ , -which(names(data) %in% r)]
 rm(r)
-# 17 + 3 + 23 = 43 columns removed in total
+# 17 + 4 + 23 = 43 columns removed in total
 write.csv(data, 'data_aggregated.csv', row.names = FALSE)
